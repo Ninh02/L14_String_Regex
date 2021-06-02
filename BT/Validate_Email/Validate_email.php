@@ -7,6 +7,6 @@ function checkEmail($email){
         echo "Email khong hop le";
     }
 }
-checkEmail("a@gmail.com");
+checkEmail("huyen@gmail.com");
 echo "<br>";
 checkEmail("ab@gmail.");
