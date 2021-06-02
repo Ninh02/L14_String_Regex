@@ -2,9 +2,9 @@
 function checkPhone($phone){
     $pattern="/^[0]+[0-9]{9}$/";
     if(preg_match_all($pattern,$phone)){
-        echo "so hop le";
+        echo "so dien thoai hop le";
     }else{
-        echo "so khong hop le";
+        echo "so dien thoai khong hop le";
     }
 }
 checkPhone("0362223456");
