@@ -1,6 +1,6 @@
 <?php
 function checkPhone($phone){
-    $pattern="/^[0-9]+[-]+[0]+[0-9]{9}$/";
+    $pattern="/^[0-9]{2}+[-]+[0]+[0-9]{9}$/";
     if(preg_match_all($pattern,$phone)){
         echo "so dien thoai hop le";
     }else{
